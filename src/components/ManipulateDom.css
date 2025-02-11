@@ -1,0 +1,89 @@
+/* Contenedor general */
+.container {
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f6f9fc, #e9eff5);
+    min-height: 100vh;
+  }
+  
+  /* Encabezado principal */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grupo de botones centrados */
+  .button-group {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo de los botones */
+  .btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Contenedor de tarjetas (elementos) */
+  .elements-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Tarjeta de cada elemento */
+  .card {
+    width: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+  }
+  
+  /* Cabecera de la tarjeta con icono y texto */
+  .card-header {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #fff;
+  }
+  
+  /* Estilo para la sección de contenido de la tarjeta */
+  .card-content {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Estilo para el badge */
+  .badge {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  

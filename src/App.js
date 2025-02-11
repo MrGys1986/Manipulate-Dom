@@ -1,10 +1,11 @@
-import React from "react";
-import FormValidation from "./components/FormValidation"; 
+// Archivo: src/App.js
+import React from 'react';
+import ManipulateDom from './components/ManipulateDom';
 
 function App() {
   return (
     <div className="App">
-      <FormValidation />
+      <ManipulateDom />
     </div>
   );
 }
